@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #111C24;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: content-box;
+}
+
+.nav-wrapper {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 70px;
+    font-family: "Inter" sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+}
+
+.nav-list a {
+    font-family: "Inter";
+    font-weight: 300;
+}
+
+.nav-link > a {
+    font-weight: 500;
+    font-family: "DM Mono";
+}
+
+.nav-contact a {
+    font-family: "Inter";
+    font-weight: 300;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 173px;
+    margin-bottom: 60px;
+}
+
+
+.hero-title{
+    font-family: "DM Mono";
+    font-weight: 300;
+    font-size: 90px;
+    color: #111C24;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 157px 0;
+    max-width: 605px;
+}
+
+.hero-content > img {
+    width: 100%;
+}
+
+.hero-content > p {
+    line-height: 32px;
+    color: #111C24;
+    font-weight: 300;
+    font-family: "Inter";
+}
+
+.intro{
+    max-width: 1540px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.intro-titles {
+    padding: 30px 0;
+    overflow-x: auto;
+    background-color: #CAFC01;
+    white-space: nowrap;
+    scrollbar-width: none;
+    font-family: "DM Mono";
+    font-size: 56px;
+    font-weight: 300;
+}
+
+.intro-content {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 120px;
+    padding: 247px 0;
+}
+
+.intro-arrow {
+   position: absolute;
+   display: flex;
+   bottom: 66px;
+   right: 66px;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+.intro-wrapper {
+    color: #616161;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.intro-description > span {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Inter";
+}
+
+.intro-wrapper span {
+    color: #fff;
+}
+
+.products {
+    margin-top: 160px;
+}
+
+.products-title > h2 {
+    margin-bottom: 60px;
+    text-align: start;
+    font-family: "DM Mono";
+    font-weight: 300;
+    font-size: 56px;
+    color: #111C24;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-content {
+    font-family: "DM Mono";
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px 0;
+    margin-left: 100px;
+}
+
+.products-box > strong {
+    font-weight: 500;
+    font-size: 24px;
+    color: #111C24;
+    font-family: "DM Mono";
+}
+
+.products-box > h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111C24;
+    margin: 30px 0;
+    font-family: "DM Mono";
+}
+
+.products-box > p {
+    font-size: 16px;
+    color: #111C24;
+    font-family: "Inter";
+    font-weight: 300;
+}
+
+.products-images {
+    position: relative;
+}
+
+.products-img {
+    height: 852px;
+    max-width: 480px;
+    position: relative;
+}
+
+
+.products-arrow {
+    position: absolute;
+    top: 66px;
+    right: 66px;
+}
+
+
+.about {
+    padding: 60px;
+    background-color: #F9FAFC;
+}
+
+.about-content {
+    align-items: center;
+    display: flex;
+    gap: 0 255px;
+}
+
+.about-item{
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    margin-left: 100px;
+}
+
+.about-title {
+    font-family: "DM Mono";
+    font-size: 56px;
+    font-weight: 300;
+    color: #111C24;
+    margin-bottom: 60px;
+}
+
+.about-item > h3{
+    font-family: "DM Mono";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #111C24;
+    text-transform: uppercase;
+}
+
+
+.about-item > p {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 420px;
+    color: #111C24;
+}
+
+.about-footer {
+    display: flex;
+    gap: 0 456px;
+    margin: 40px 0;
+    margin-left: 100px;
+}
+
+.about-footer > p {
+    font-size: 16px;
+    max-width: 683px;
+    font-family: "Inter";
+    color: #111C24;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.kickstart {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.kickstart-line {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #111C24;
+    color:  #F9FAFC;
+    padding: 30px 0;
+    font-size: 56px;
+    font-family: "DM Mono";
+    scrollbar-width: none;
+    font-weight: 300;
+}
+
+.kickstart-line span {
+    color: #CAFC01;
+}
+
+.kickstart-img{
+    width: 100%;
+    height: 600px;
+}
+
+.kickstart-image {
+    position: relative;
+}
+
+.kickstart-img {
+    position: relative;
+}
+
+.kickstart-arrow {
+    position: absolute;
+    top: 66px;
+    right: 66px;
+}
+
+.kickstart-image > span {
+    position: absolute;
+    top: 66px;
+    left: 66px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.welcome-text {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.welcome-title{
+    padding-top: 60px;
+    font-family: "DM Mono";
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 72px;
+    color: #111C24;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-item {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #111C24;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    color: #111C24;
+}
+
+.footer-nav span {
+    border-bottom: 2px solid #111C24;
+}
+
+.footer-box-content{
+    display: flex;
+    gap: 0 90px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box p {
+    font-family: "Inter";
+    font-weight: 300;
+    color: #111C24;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 0 100px;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-left {
+    margin-left: 30px;
+}
+
+.footer-link{
+    color: #111C24;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 2px solid #111C24;
+    font-family: "Inter";
+}
